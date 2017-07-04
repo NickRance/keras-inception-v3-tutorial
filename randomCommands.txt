@@ -1,0 +1,22 @@
+(echo -n '{"data": "'; base64 test_cat.jpg; echo '"}') |
+curl -X POST -H "Content-Type: application/json" -d @- http://35.184.19.53:8080
+
+(echo -n '{"data": "'; base64 test_cat.jpg; echo '"}') |
+curl -X POST -H "Content-Type: application/json" -d @- http://0.0.0.0:8080
+
+
+messing-around-1473104491351
+sudo docker run -td -p 80:80 gcr.io/messing-around-1473104491351/predict-service
+
+#sudo gcloud docker -- pull gcr.io/messing-around-1473104491351/predict_service:latest
+#sudo docker run -td -p 80:80 gcr.io/messing-around-1473104491351/predict-service
+# gsutil mb gs://nicktestsphotos
+
+#make some notes for the tutorial gcloud docker -- pull instead of just pull
+#test_cat.jpg instead of cat.jpg
+
+
+magnet:?xt=urn:btih:01cd8b4f0778a5d73f0958385f1ee1d5cae9b6c4&dn=Silicon.Valley.Season+2.1080p.BluRay.6CH.HEVC.x265.sharpysword&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969
+
+transmission-cli magnet:?xt=urn:btih:01cd8b4f0778a5d73f0958385f1ee1d5cae9b6c4&dn=Silicon.Valley.Season+2.1080p.BluRay.6CH.HEVC.x265.sharpysword&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969&tr=udp%3A%2F%2Fzer0day.ch%3A1337&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969 -w ~/Downloads
+
