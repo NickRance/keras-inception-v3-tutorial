@@ -1,5 +1,5 @@
 Tutorial on using Google's Inception V3 model with Keras.
-[](diagram.jpg)
+[Diagram](diagram.jpg)
 
 ### Overview
 * Keras Inception V3 Prediction 
